@@ -17,6 +17,7 @@ public class UserController {
     public User getUserById(@RequestParam("id") Integer id){
 
        User userById = userService.getUserById(id);
+        System.out.println("aa");
 
         return userById;
     }
