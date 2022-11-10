@@ -19,6 +19,7 @@ public class UserController {
        User userById = userService.getUserById(id);
         System.out.println("aa");
 
+        System.out.println("bb");
         System.out.println("cc");
         return userById;
     }
